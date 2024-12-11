@@ -1,0 +1,118 @@
+/* spotify generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-header: #080B12;
+    --color-verticalbar: #000000;
+    --color-bg-main: #141922;
+    --color-footer: #282828;
+}
+
+html {
+    text-transform: capitalize;
+}
+
+
+
+/*  */
+
+.container {
+    display: flex;
+    background-color: var(--color-bg-main);
+}
+
+.tab-header {
+    display: flex;
+    height: 50px;
+    width: 90vw;
+    background-color: var(--color-header);
+    flex-direction: column;
+
+}
+
+.black-nav-vertical {
+    height: 90vh;
+    background-color: var(--color-verticalbar);
+    width: 15vw;
+
+}
+
+.btn i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
+}
+
+i {}
+
+.upgrade-button {
+    color: white;
+    border: solid 2px white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--color-header);
+
+}
+
+
+.sfondo {
+    height: 80vh;
+    background-color: var(--color-bg-main);
+    display: flex;
+
+}
+
+
+
+.menu-nav-grey {
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+
+
+    font-size: 0.9rem;
+
+
+}
+
+.container-nav-grey {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+/* title */
+.title {
+    color: white;
+    margin: 15px 10px 0 0;
+
+}
+
+
+
+
+/* footer */
+.footer-media-player {}
+
+footer {
+    padding: 20px;
+    min-height: 10vh;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: var(--color-footer);
+    text-align: center;
+}

@@ -11,37 +11,24 @@
     --color-verticalbar: #000000;
     --color-bg-main: #141922;
     --color-footer: #282828;
+    #141922;
     --color-text: #797B81;
 }
 
 html {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
-
+h3 {
+    color: gray;
+    margin: 15px;
+}
 
 /*  */
 /* 
-.container {
-    display: flex;
-    background-color: var(--color-bg-main);
-}
 
-.tab-header {
-    display: flex;
-    height: 50px;
-    width: 90vw;
-    background-color: var(--color-header);
-    flex-direction: column;
 
-}
 
-.black-nav-vertical {
-    height: 90vh;
-    background-color: var(--color-verticalbar);
-    width: 15vw;
-
-}
 
 .btn i {
     width: 30px;
@@ -68,85 +55,231 @@ i {}
 }
 
 
-.sfondo {
-    height: 80vh;
-    background-color: var(--color-bg-main);
-    display: flex;
-
-}
 
 
 
-.menu-nav-grey {
-    font-weight: bold;
-    color: grey;
-    text-decoration: none;
 
 
     font-size: 0.9rem;
 
 
-}
-
-.container-nav-grey {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
- */
-
-
-/* title */
-/* .title {
-    color: white;
-    margin: 15px 10px 0 0;
-
-} */
 
 
 
 
-/* footer */
-/* .footer-media-player {}
 
-footer {
-    padding: 20px;
-    min-height: 10vh;
-    font-size: 0.8rem;
-    color: #fff;
-    background-color: var(--color-footer);
-    text-align: center;
-} */
+
+
+
+
+
+
+
+/* ************************* */
+/* ************************* */
 
 .layout-top {
     width: 100vw;
     height: 90vh;
     background-color: #141922;
-    display: flex;
+    /* display: flex; */
+
+
 }
 
 .footer-grey {
+    position: sticky;
+    z-index: 1;
     width: 100vw;
-    height: 10vh;
+    height: 100px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-around;
 }
 
-.header-button {
-    width: 100%;
-    height: 10%;
-    background-color: blue;
+.left-footer {
+    border: solid 2px white;
+    height: 100%;
+    flex-basis: 25%;
 }
+
+.central-footer {
+    border: solid 2px white;
+    height: 100%;
+    flex-basis: 40%;
+}
+
+.right-footer {
+    border: solid 2px white;
+    height: 100%;
+    flex-basis: 25%;
+}
+
+.container-big {
+    display: flex;
+    height: 90vh;
+}
+
 
 .side-bar {
     background-color: #000000;
-    width: 15%;
+    flex-basis: 10%;
     height: 100%;
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.container-icone-top {
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.container-icone-buttom {
+    width: 100%;
+
+}
+
+.header-blue {
+    background-color: var(--color-header);
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    height: 70px;
+    justify-content: end;
+    align-items: center;
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
+
+
+
+}
+
+
+.atc-button {
+
+    padding: 10px;
+    color: white;
+    border: solid 3px white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+/* .header-button {
+    color: white;
+
+    text-align: right;
+    text-transform: uppercase;
+    border: 3px solid white;
+    border-radius: 50px;
+    /* width: 30%; problems */
+
+
+
 span a {
+    /* text-align: center; */
     border: solid 2px white;
     color: white;
-    padding: 25px;
-    border-radius: 20%;
+    /* width: 30%; */
+    border-radius: 30px;
+    /* padding: 20px; */
+
+
+}
+
+.logo {
+    width: 30px;
+    margin: 0 auto;
+
+}
+
+.spotify-logo-text {
+    display: none;
+
+}
+
+
+.icone {
+    width: 20px;
+    margin: 0 auto;
+}
+
+#svg-profile-grey {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+
+
+    background-color: lightgray;
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    border: solid 3px green;
+}
+
+.main-overflow {
+    overflow-y: auto;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+/* menu-nav-grey */
+.menu-nav ul {
+    color: grey;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1%;
+
+}
+
+.menu-nav ul li {
+    flex-basis: calc((100%/4) - 10px);
+    text-align: center;
+    flex-grow: 1;
+    font-weight: bolder;
+    font-size: ;
+}
+
+
+
+/* main-title */
+.title {
+    color: white;
+    margin: 20px;
+}
+
+/* album */
+
+
+
+.album ul {
+    width: 100%;
+    border: solid 2px blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.album ul li {
+    flex-basis: calc((100%/2) - 10px);
+}
+
+h1,
+h2 {
+    color: white;
 }

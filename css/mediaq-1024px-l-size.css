@@ -1,5 +1,14 @@
 @media screen and (min-width: 1024px) {
-    .container {
-        background-color: blue;
+    @media screen and (min-width: 480px) {
+        .spotify-logo {
+            display: none;
+        }
+
+        .spotify-logo {
+            display: none;
+        }
+
+
+
     }
 }

@@ -3,5 +3,13 @@
         display: none;
     }
 
+    .dropdown {
+        display: inline-block;
+    }
+
+    .album ul li {
+        flex-basis: calc((90%/4) - 10px);
+    }
+
 
 }

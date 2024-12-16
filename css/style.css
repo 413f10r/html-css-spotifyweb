@@ -106,7 +106,7 @@ h3 {
 }
 
 .footer-img img {
-    width: 40%;
+    width: 30%;
 
 
     border-radius: 50%;
@@ -130,9 +130,6 @@ h3 {
 .container-central-music {
     width: 25%;
     align-items: center;
-
-
-
 }
 
 .container-central-music.play-button {
@@ -146,6 +143,7 @@ h3 {
     border: 2px white solid;
     width: 50%;
     border-radius: 50%;
+    border: solid 3px white;
 
 
 

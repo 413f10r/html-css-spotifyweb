@@ -5,6 +5,7 @@
 
     .spotify-logo-text {
         display: inline-block;
+        margin-bottom: 10px;
     }
 
     .album ul li {
@@ -15,6 +16,11 @@
 
     .side-bar {
         flex-basis: 30%;
+    }
+
+    .hr-sidebar {
+        display: flex;
+        margin: 20px;
     }
 
     .container-icon figure {
@@ -34,6 +40,17 @@
     .main {
         flex-basis: 70%;
         height: 90vh;
-        border: solid 3px green;
+
+    }
+
+    .menu-nav ul li {
+        flex-basis: calc((100%/3) - 10px);
+
+    }
+
+    .barra-volume {
+
+        min-width: 70px;
+
     }
 }

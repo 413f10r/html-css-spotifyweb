@@ -1,19 +1,33 @@
 @media screen and (min-width: 1024px) {
-    @media screen and (min-width: 480px) {
-        .spotify-logo {
-            display: none;
-        }
 
-        .spotify-logo {
-            display: none;
-        }
+    .spotify-logo {
+        display: none;
+    }
 
-        .album ul li {
-            flex-basis: calc((80%/6) - 10px);
-        }
+    .spotify-logo {
+        display: none;
+    }
+
+    .album ul {
+        gap: 5px;
+    }
+
+    .album ul li {
+
+        flex-basis: calc((80%/6) - 5px);
+    }
 
 
-
+    .menu-nav ul li {
+        flex-basis: calc((100%/6) - 10px);
 
     }
+
+    v
+}
+
+.barra-volume {
+
+    min-width: 130px;
+
 }

@@ -11,5 +11,37 @@
         flex-basis: calc((90%/4) - 10px);
     }
 
+    .left-footer {
+        display: flex;
+        align-items: center;
+    }
 
+
+
+    .central-footer {
+        display: flex;
+        flex-basis: 40%;
+        gap: 10px;
+    }
+
+    .right-footer {
+        display: flex;
+        flex-basis: 25%;
+        gap: 10px;
+    }
+
+    .album ul {
+        gap: 10px;
+    }
+
+    .menu-nav ul li {
+        flex-basis: calc((100%/5) - 10px);
+        flex-grow: 1;
+    }
+
+    .barra-volume {
+
+        min-width: 100px;
+
+    }
 }

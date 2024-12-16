@@ -25,6 +25,10 @@ h3 {
     margin: 15px;
 }
 
+#white-color {
+    color: white;
+}
+
 /*  */
 /* 
 
@@ -82,6 +86,8 @@ h3 {
 
 /* footer */
 .footer-grey {
+    display: flex;
+    align-items: center;
     position: sticky;
     z-index: 1;
     width: 100vw;
@@ -92,24 +98,81 @@ h3 {
 }
 
 .left-footer {
-    border: solid 2px white;
+    display: none;
+
     height: 100%;
     flex-basis: 25%;
+
 }
 
+.footer-img img {
+    width: 40%;
+
+
+    border-radius: 50%;
+
+
+}
+
+.text-footer-img {}
+
 .central-footer {
-    border: solid 2px white;
+    display: flex;
+
     height: 100%;
-    flex-basis: 40%;
+    flex-basis: 60%;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+.container-central-music {
+    width: 25%;
+    align-items: center;
+
+
+
+}
+
+.container-central-music.play-button {
+
+    height: 40%;
+
+
+}
+
+.play-button-dimensioni {
+    border: 2px white solid;
+    width: 50%;
+    border-radius: 50%;
+
+
+
+
+
 }
 
 .right-footer {
-    border: solid 2px white;
+    display: flex;
+
     height: 100%;
-    flex-basis: 25%;
+    flex-basis: 40%;
+    align-items: center;
+    gap: 15px
 }
 
-/* cintainer */
+.container-volume-icon {}
+
+.volumecontainer {}
+
+.barra-volume {
+    border-bottom: solid 5px white;
+    min-width: 50px;
+
+}
+
+/* container */
 .container-big {
     display: flex;
     height: 90vh;
@@ -124,6 +187,11 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.hr-sidebar {
+    display: none;
+    margin: 15px;
 }
 
 .container-icon-top {
@@ -214,12 +282,11 @@ span a {
 
 .container-icon figure {
     padding: 10px;
-
-
-    min-width: 50px;
-    max-width: 80px;
+    /* min-width: 50px;
+    max-width: 80px; */
     display: flex;
     align-items: center;
+    flex-basis: 15%;
 
 }
 
@@ -233,6 +300,7 @@ span a {
     height: 30px;
     border-radius: 50px;
     background-color: lightgray;
+    margin-bottom: 15px;
 }
 
 
@@ -241,7 +309,7 @@ span a {
 .main {
     flex-basis: 90%;
     height: 90vh;
-    border: solid 3px green;
+
 }
 
 .main-overflow {
@@ -291,14 +359,14 @@ span a {
 }
 
 .album ul {
-    border: solid 2px blue;
+
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 
 .album ul li {
-    flex-basis: calc((90%/2) - 10px);
+    flex-basis: calc((90%/2) - 15px);
 }
 
 .circle {

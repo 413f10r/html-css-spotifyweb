@@ -8,6 +8,11 @@
             display: none;
         }
 
+        .album ul li {
+            flex-basis: calc((80%/6) - 10px);
+        }
+
+
 
 
     }
